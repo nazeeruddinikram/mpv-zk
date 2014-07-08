@@ -28,7 +28,7 @@ VERSION=0.1
   echo "$1"
   }
   
-  # Check if kdialog is installed 
+  # Check if kdialog is installed.
   function check_if_kdialog(){
  
   kdialog --help > /dev/null
@@ -68,7 +68,7 @@ VERSION=0.1
 
  # Show the error message.
  function error(){
- 
+	 
  printf ""
  printf "mpv-zk $VERSION"
  printf ""
@@ -78,7 +78,6 @@ VERSION=0.1
  printf ""
  printf "$0 <video/audio file>"
  printf""
- 
  }
  
  # Init the script.
