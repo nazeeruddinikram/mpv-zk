@@ -4,6 +4,7 @@ Small zenity/kdialog GUI for mpv
 Requirements:
 -------------
 
+* mpv (it is obvious)
 * zenity or kdialog
 * xterm (optional but recommended)
 * bash
